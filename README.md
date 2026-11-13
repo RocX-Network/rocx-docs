@@ -24,12 +24,12 @@ The application provides the starting activity records. The planned reputation l
     <th width="50%">DeFi activity</th>
   </tr>
   <tr>
-    <td><a href="assets/rocx-testnet-poa.jpg"><img src="assets/rocx-testnet-poa.jpg" alt="RocX PoA contribution feed and filters" width="100%" /></a></td>
-    <td><a href="assets/rocx-testnet-defi.jpg"><img src="assets/rocx-testnet-defi.jpg" alt="RocX Base Sepolia DeFi deposit interface" width="100%" /></a></td>
+    <td valign="top"><a href="assets/rocx-testnet-poa.jpg"><img src="assets/rocx-testnet-poa.jpg" alt="RocX PoA contribution feed and filters" width="100%" /></a></td>
+    <td valign="top"><a href="assets/rocx-testnet-defi.jpg"><img src="assets/rocx-testnet-defi.jpg" alt="RocX Base Sepolia DeFi deposit interface" width="100%" /></a></td>
   </tr>
   <tr>
-    <td>Original posts, source links, categories, and community feedback.</td>
-    <td>Supported testnet interactions and activity context.</td>
+    <td valign="top">Original posts, source links, categories, and community feedback.</td>
+    <td valign="top">Supported testnet interactions and activity context.</td>
   </tr>
 </table>
 
