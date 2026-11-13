@@ -2,51 +2,49 @@
 
 # Reputation model
 
-> Design direction. The scoring formula and external interfaces are not released by this documentation repository.
+When RocX recommends a provider, a project should be able to see where the evidence came from and how it relates to the task. We are designing the model around the project, category and period being assessed. The scoring formula and external interfaces are still in development.
 
-RocX's intended assessment explains **what was observed, where it came from, and which decision it supports**. Reputation is scoped to a project, category, task, and observation period.
+## The evidence we plan to use
 
-## Evidence types
-
-**Account linkage**  
-Connect a supported wallet or social account to a profile. This establishes the account relationship, rather than legal identity or expertise.
+**Linked accounts**  
+A connected wallet or social account establishes a supported account relationship. Assessing someone’s expertise or legal identity requires further evidence.
 
 **Original contributions**  
-Retain the source reference, subject, and contribution context. Source attribution and content accuracy remain separate claims.
+A contribution keeps its source, subject and context so a project can inspect the original work. Attribution and content accuracy are assessed separately.
 
 **Product activity**  
-Record an observed action on a supported network and product. An interaction alone does not establish comprehension or profitability.
+An observed transaction shows that an action took place on a particular network and product. Understanding and profitability need other evidence.
 
-**Community review**  
-Show the feedback and its stated scope. Review signals require context and controls against duplicate or coordinated activity.
+**Community reviews**  
+Feedback is useful when the reviewer’s role and the scope of the review are clear. Duplicate or coordinated activity needs to be considered when using these signals.
 
 **Work outcomes**  
-Record an evaluator's decision against agreed acceptance criteria. An outcome is evidence about that job, rather than a guarantee about future performance.
+An evaluator’s decision records whether a job met its agreed criteria. That result informs later assessments of the provider’s experience.
 
-## Assessment dimensions
+## What an assessment considers
 
-| Dimension | What the assessment considers |
+| Dimension | What it tells a project |
 | --- | --- |
-| Relevance | Match between the evidence and the project, sector, or brief |
-| Contribution quality | Original work and its review context |
-| Product experience | Relevant activity observed within supported scope |
-| Delivery | Reviewed outcomes from agreed tasks |
-| Evidence confidence | Coverage, freshness, review state, and policy version |
+| Relevance | How the evidence relates to the project, sector or brief |
+| Contribution quality | What was created and how it was reviewed |
+| Product experience | Which relevant interactions were observed |
+| Delivery | What happened in previous jobs |
+| Confidence in the evidence | How complete, recent and well reviewed the records are |
 
-Missing evidence should remain visible. A candidate comparison should link to original work and explain its recommendation. The project retains control of selection.
+If evidence is missing, that should be visible. A candidate comparison should link to the original work and explain the recommendation so the project can make its own choice.
 
 ## People and agents
 
-Human contributor and agent records remain distinct. Account ownership, an agent identifier, feedback, and task performance are separate claims.
+We will keep human contributor and agent histories separate. Account ownership, an agent identifier, feedback and performance each describe a different part of the record.
 
-Each work record should identify the **requester, provider, evaluator, and subject of evaluation**, including agent-to-agent and agent-to-person jobs.
+For each job, we plan to record who requested the work, who performed it and who evaluated it. This applies when agents work with people or with other agents.
 
-## AI assistance and correction
+## AI and human review
 
-AI may propose topic labels, detect potential duplicates, summarize evidence, and explain matching reasons. Source references and review status should remain available.
+In the planned model, AI will help label topics, identify possible duplicates and summarize evidence. Each suggestion will keep its source and review status so readers can understand how it was produced.
 
-Reviewer decisions, correction requests, revocations, and policy versions belong in the assessment lifecycle. AI output alone should not establish an authoritative identity claim or trigger escrow release.
+The assessment process also needs a way to review corrections and revoke invalid records. Policy versions will make changes to an assessment traceable. Identity decisions and escrow release require their own verification and authorization.
 
 ---
 
-[Architecture](architecture.md) · [Integration direction](integrations.md)
+[Architecture](architecture.md) · [Integrations](integrations.md)

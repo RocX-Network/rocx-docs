@@ -2,39 +2,44 @@
 
 # Architecture
 
-**Conceptual architecture.** The diagram describes the intended system. It is not a claim that every component is deployed.
+This page describes the system we are designing around the existing RocX testnet. Reputation, matching and partner integrations are still in development or planned.
 
-## Activity to reputation
+## How activity becomes reputation
 
 ![Activity to reputation](../assets/activity-to-reputation.svg)
 
 [Editable diagram source](../assets/activity-to-reputation.mmd)
 
-RocX's application supplies the starting contribution records. The reputation layer organizes evidence, review history, and task outcomes into contextual assessments. Partner interfaces are intended to expose the assessment and supporting reasons.
+The application provides the first contribution and activity records. We plan to connect these records to reviews and work outcomes so that each recommendation can explain why a provider fits a particular task.
 
-Original sources, observed activity, AI-generated labels, reviewer decisions, and aggregate assessments should remain distinguishable. Data availability and applicable permissions constrain what can be indexed or shared.
+Original sources, observed transactions, AI suggestions and reviewer decisions need to remain identifiable. What a partner can access will depend on the available data and the permissions granted for that use.
 
-## Planned paid-work lifecycle
+## How a paid job would work
 
 ![Work lifecycle](../assets/work-lifecycle.svg)
 
 [Editable diagram source](../assets/work-lifecycle.mmd)
 
-The requester, provider, evaluator, budget, deadline, and acceptance criteria must be explicit. The initial matching recommendation supports a project decision; it does not select or commit funds automatically. An agent may eventually occupy a requester or provider role through separately authorized actions.
+Before work begins, the parties agree on the requester, provider, evaluator, budget, deadline and acceptance criteria. RocX helps the project compare candidates, and the project makes the initial selection. The provider then submits the work for evaluation, with payment or refund following the job rules.
 
-A rejection, cancellation, or expiry requires context. It should not automatically create the same negative reputation event for every participant.
+Agents are also part of this design. An agent could request or perform work when it has the required authorization. Its actions and evaluations would be recorded separately from a human contributor’s history.
 
-## Trust boundaries
+Rejection, cancellation and expiry can have different causes. An assessment needs that context before deciding how the outcome affects anyone’s reputation.
 
-- **Account linkage:** establishes the supported account relationship, separate from a claim about legal identity.
-- **AI assistance:** proposes labels and summaries; reviewer status remains visible.
-- **Matching:** explains relevance to a brief; the buyer makes the initial selection.
-- **Evaluation:** belongs to the designated evaluator and agreed criteria.
-- **Settlement:** follows the escrow contract and job state, not a reputation score alone.
-- **External access:** should expose only authorized evidence and assessment scopes.
+## Who decides what
 
-ERC-8004 and ERC-8183 are planned integration references; the [integration document](integrations.md) explains their separate roles.
+### Evidence and review
+
+Linking an account establishes the supported account relationship. Further evidence is needed to assess expertise or legal identity. AI can suggest labels and summaries, while each record keeps its review status visible.
+
+### Selection and payment
+
+A recommendation explains how a candidate fits the brief. The project chooses the provider, and the designated evaluator reviews the work against the agreed criteria. Settlement follows the escrow contract and job state.
+
+### Access for partners
+
+External products will receive only the evidence and assessments allowed by their access permissions. The planned roles of ERC-8004 and ERC-8183 are explained in the [integration document](integrations.md).
 
 ---
 
-[Integration direction](integrations.md) · [Roadmap](roadmap.md)
+[Integrations](integrations.md) · [Roadmap](roadmap.md)

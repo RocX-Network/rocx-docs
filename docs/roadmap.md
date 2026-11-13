@@ -2,41 +2,39 @@
 
 # Roadmap
 
-> Delivery sequence, rather than a dated release commitment. Planned capabilities become usable through their published releases.
+These are the steps we plan to take from the existing testnet to reputation infrastructure. Timing will depend on what we learn from users and partners. Each component will be documented when it is released.
 
-## Current foundation
+## The current testnet
 
-**PoA, linked accounts, supported DeFi activity, and Explore missions.**
+The testnet includes PoA, linked accounts, supported DeFi activity and Explore missions. It provides the first contribution and participation records for the product we are building.
 
-The testnet provides the starting contribution, feedback, and participation records.
+## Reputation and matching
 
-## Next: reputation and matching
+We want a project to be able to review evidence that is relevant to its brief, compare candidates and understand why each one was recommended.
 
-Connect relevant evidence to a project, sector, and brief. Show candidate comparisons and reasons that a buyer can inspect.
+The first goal is to establish whether this information helps a buyer select a suitable provider.
 
-**Validation:** a project uses the evidence to make a relevant provider selection.
+## Paid jobs
 
-## Then: evaluated work
+The next stage connects a brief to escrow, delivery review and a recorded outcome. Each job needs a clear requester, provider and evaluator. Human and agent histories will remain separate.
 
-Connect agreed briefs, distinct requester/provider/evaluator roles, escrow, and reviewed outcome records. Human and agent records remain distinct.
+The pilot needs to show that a funded job can be completed with clear rules for acceptance, rejection, refunds and corrections.
 
-**Validation:** funded work completes with understandable acceptance, rejection, refund, and correction rules.
+## External integrations
 
-## Expand: external integrations
+We plan to provide a reputation API and MCP tools that let partners read evidence within their own products.
 
-Provide a scoped reputation API and read-only MCP tools for partner products.
+Before expanding this part of the service, we want to see partners using the assessments repeatedly in their normal workflows.
 
-**Validation:** a partner repeatedly uses the assessment within its own workflow.
+## SDK
 
-## Distribute: SDK
+Once the interfaces are stable and developer needs are clear, we plan to publish integration helpers and examples.
 
-Publish stable integration helpers and examples when the interfaces and developer needs are sufficiently clear.
+The SDK will follow a usable interface and a demonstrated need from developers, with documentation that we can maintain alongside it.
 
-**Validation:** released interfaces, maintained documentation, and demonstrated demand.
+## Release information
 
-## What a release will include
-
-Public implementation repositories should explain what is usable, how to run it, supported networks, relevant licenses, and known limitations. SDK packages will be linked from the organization when released.
+Each implementation repository will explain how to use the component, which networks it supports and any known limitations. Licensing and security information will be included with the relevant release. SDK packages will be linked from the organization when available.
 
 ---
 

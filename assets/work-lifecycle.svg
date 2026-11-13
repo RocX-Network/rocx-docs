@@ -3,7 +3,7 @@
 <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#6b52e8"/></marker></defs>
 <rect width="1280" height="600" rx="20" fill="#ffffff"/>
 <text x="40" y="48" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="600" fill="#1d192b">Evaluated work and settlement</text>
-<text x="40" y="79" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" fill="#726b85">Conceptual flow · requester, provider, and evaluator remain explicit</text>
+<text x="40" y="79" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" fill="#726b85">Planned workflow with a requester, provider, and evaluator</text>
 <rect x="40" y="130" width="200" height="96" rx="12" fill="#f4f2fc" stroke="#ded9f4"/>
 <text x="140.0" y="173.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">Brief and</text>
 <text x="140.0" y="198.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">acceptance criteria</text>

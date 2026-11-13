@@ -3,7 +3,7 @@
 <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#6b52e8"/></marker></defs>
 <rect width="1280" height="520" rx="20" fill="#ffffff"/>
 <text x="40" y="48" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="600" fill="#1d192b">Activity to reputation</text>
-<text x="40" y="79" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" fill="#726b85">Conceptual flow · planned reputation and partner components</text>
+<text x="40" y="79" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" fill="#726b85">Planned flow for reputation and external integrations</text>
 <rect x="40" y="140" width="200" height="96" rx="12" fill="#f4f2fc" stroke="#ded9f4"/>
 <text x="140.0" y="183.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">PoA posts and</text>
 <text x="140.0" y="208.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">supported activity</text>
@@ -13,11 +13,11 @@
 <text x="380.0" y="208.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">account references</text>
 <path d="M480 188 H514" fill="none" stroke="#6b52e8" stroke-width="2.2" marker-end="url(#arrow)"/>
 <rect x="520" y="140" width="200" height="96" rx="12" fill="#f4f2fc" stroke="#ded9f4"/>
-<text x="620.0" y="183.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">AI-assisted labels</text>
+<text x="620.0" y="183.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">AI suggestions</text>
 <text x="620.0" y="208.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">and review</text>
 <path d="M720 188 H754" fill="none" stroke="#6b52e8" stroke-width="2.2" marker-end="url(#arrow)"/>
 <rect x="760" y="140" width="200" height="96" rx="12" fill="#5b3df0" stroke="#5b3df0"/>
-<text x="860.0" y="183.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#ffffff">Context-specific</text>
+<text x="860.0" y="183.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#ffffff">Project and task</text>
 <text x="860.0" y="208.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#ffffff">reputation</text>
 <path d="M960 188 H994" fill="none" stroke="#6b52e8" stroke-width="2.2" marker-end="url(#arrow)"/>
 <rect x="1000" y="140" width="200" height="96" rx="12" fill="#f4f2fc" stroke="#ded9f4"/>

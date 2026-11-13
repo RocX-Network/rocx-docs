@@ -2,36 +2,36 @@
 
 # Product overview
 
-RocX is building a reputation layer for Web3 work. The current application provides the starting contribution and activity records; the next stage makes those records useful for matching and external integrations.
+RocX is building a reputation layer for Web3 work. The current application brings together contributions and product activity. We plan to use those records to help projects find suitable providers and let other applications use the same evidence.
 
 ## The current application
 
-### PoA: contributions with context
+### PoA contributions
 
-Original posts are connected to source links, categories, and community feedback. Users can browse the feed and inspect the original contribution.
+Users can register original posts, browse contributions by category and read community feedback. Each post links back to its source so readers can inspect the original work.
 
 [![RocX PoA contribution feed](../assets/rocx-testnet-poa.jpg)](../assets/rocx-testnet-poa.jpg)
 
-*Public PoA feed, captured November 13, 2026. An activity record or community vote is not the same as a completed reputation assessment.*
+*The public PoA feed on November 13, 2026. Contributions and votes are inputs to the reputation model being developed.*
 
-### DeFi: activity in a supported product
+### DeFi activity
 
-The testnet provides supported DeFi interactions and network context. These records can contribute evidence of product use within their observed scope.
+The testnet lets users try supported DeFi interactions. A record of an interaction can help show which product they have used and on which network.
 
 [![RocX Base Sepolia DeFi deposit interface](../assets/rocx-testnet-defi.jpg)](../assets/rocx-testnet-defi.jpg)
 
-*Public Base Sepolia deposit interface, captured November 13, 2026. The screenshot shows a testnet interface, not an investment return or production deployment claim.*
+*The deposit screen on Base Sepolia, captured November 13, 2026. The figures shown are from the testnet.*
 
-Linked accounts, community feedback, and Explore missions provide additional participation context. Activity points, contribution counts, and reputation serve different purposes.
+Linked accounts, community feedback and Explore missions add to the participation record. Reputation will also consider what the activity means for the project and task being assessed.
 
 ## Who it serves
 
-| Participant | Intended value |
+| Participant | How RocX can help |
 | --- | --- |
 | Contributors and KOLs | Show relevant work, product experience, and reviewed delivery |
 | Projects and foundations | Compare candidates against a brief and inspect the evidence |
-| Applications and agent services | Use scoped assessments in their own products |
-| Agents | Build distinct requester/provider identities and work histories |
+| Applications and agent services | Use reputation evidence in their own products |
+| Agents | Build their own identities and task histories |
 
 ## Example: commissioning a DeFi guide
 
@@ -39,13 +39,13 @@ Linked accounts, community feedback, and Explore missions provide additional par
 2. Candidates attach relevant PoA posts and activity records.
 3. RocX compares fit and explains the supporting evidence.
 4. The project selects the provider.
-5. The planned paid-work flow adds escrow, submission, evaluator review, and settlement.
-6. The reviewed outcome informs future matching.
+5. In the planned job workflow, the project funds escrow and the provider submits work for evaluation before settlement.
+6. The reviewed result becomes part of the record used for future matching.
 
-Scope, revision limits, deadlines, and the evaluator must be agreed before work begins. Human and agent records remain distinct.
+The parties agree on the scope, revision limits, deadline and evaluator before work starts. Human and agent records will remain separate.
 
 ## What comes next
 
-The reputation, matching, and paid-work extensions are in development or planned. Current testnet functionality is the foundation for that work.
+Reputation, matching and paid jobs are still in development or planned. The current testnet provides the activity records on which we are building these features.
 
-[Read the reputation model](reputation-model.md) · [See the architecture](architecture.md)
+[Read the reputation model](reputation-model.md) · [Architecture](architecture.md)

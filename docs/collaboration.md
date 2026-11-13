@@ -2,28 +2,28 @@
 
 # Working with RocX
 
-## For projects and foundations
+## Projects and foundations
 
-A useful initial scenario is a product guide, technical explainer, or campaign that needs contributors with relevant experience. Describe the brief, category, acceptance criteria, delivery schedule, and the evidence you currently use to select a contributor.
+If you need a product guide, a technical explainer or a campaign, tell us about the work and the experience you look for in a contributor. It helps to include the brief, acceptance criteria, delivery schedule and how you currently select people.
 
-The planned RocX workflow aims to connect contributor discovery, reviewed delivery, and reusable work history. Commercial terms and integration scope require a separate discussion; the public roadmap is not a service agreement.
+We are developing a workflow that connects finding a contributor with reviewing their delivery and recording the result. We will discuss the scope and commercial terms of any collaboration separately.
 
-## For applications and agent developers
+## Applications and agent developers
 
-Describe the decision your product needs to make, the reputation evidence it needs, and where RocX would fit within the existing workflow. Specify whether you need read access, user-facing explanations, or an authorized job lifecycle integration.
+Tell us what decision your product needs to make and what evidence would help. Explain where RocX would fit into the workflow and whether you need to read reputation data, show reasons to users or manage an authorized job.
 
-The initial partner infrastructure direction is REST and read-only MCP. An agent's ability to query information does not authorize it to commit funds, choose a provider, or approve delivery.
+Our initial integration plans focus on REST and MCP tools for reading evidence. Selecting a provider, funding a job and approving delivery require separate authorization.
 
-## For contributors
+## Contributors
 
-Documentation improvements and specific integration proposals are welcome. Use the repository's issue templates for public discussion. Send private partner context directly to the team rather than including it in an issue.
+We welcome documentation improvements and concrete integration ideas. Use the issue templates for public discussion. If the proposal contains confidential partner information, contact the team by email.
 
 ## Contact
 
-Technical and partner inquiries: **[dev@rocx.io](mailto:dev@rocx.io)**.
+Email [dev@rocx.io](mailto:dev@rocx.io) to discuss technical work or a partnership.
 
-Useful information to include: a public project URL if available, the intended users, the current workflow, the expected integration scope, and a redacted example. Do not send keys, passwords, access tokens, or unnecessary personal information.
+Tell us about your project and the users you want to help. A public project link and an example with sensitive values removed will help us understand the proposal. Keep credentials and unnecessary personal information out of the message.
 
 ---
 
-[Product overview](product-overview.md) · [Integration direction](integrations.md)
+[Product overview](product-overview.md) · [Integrations](integrations.md)

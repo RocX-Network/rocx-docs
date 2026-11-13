@@ -1,6 +1,6 @@
 <h1 align="center">RocX</h1>
 <p align="center"><strong>The Reputation Layer for Web3 Work</strong></p>
-<p align="center">Public product, architecture, and integration documentation.</p>
+<p align="center">How RocX works and how to build with us.</p>
 <p align="center">
   <a href="https://rocx-testnet.com">Website</a> ·
   <a href="https://docs.rocx.io">Product docs</a> ·
@@ -8,13 +8,13 @@
 </p>
 
 <a href="https://rocx-testnet.com"><img src="assets/rocx-testnet-home.jpg" alt="The RocX testnet landing page" width="100%" /></a>
-<p align="center"><sub>The existing RocX testnet is the starting point for the reputation layer.</sub></p>
+<p align="center"><sub>A look at the current RocX testnet.</sub></p>
 
 ## What RocX is building
 
-RocX connects activity, contribution evidence, and work outcomes for **people and agents**. The goal is to help projects select relevant providers and let external products use the same reputation evidence.
+RocX is building reputation profiles from contributions and product activity. We want projects to be able to review a person’s or agent’s experience before choosing them for a task.
 
-The application provides the starting activity records. The planned reputation layer adds context, review history, and reusable assessments.
+The testnet already provides PoA posts, community feedback and supported DeFi interactions. Our next step is to connect these records to reviewed work outcomes and make the evidence available to other products.
 
 ## See the product
 
@@ -28,33 +28,29 @@ The application provides the starting activity records. The planned reputation l
     <td valign="top"><a href="assets/rocx-testnet-defi.jpg"><img src="assets/rocx-testnet-defi.jpg" alt="RocX Base Sepolia DeFi deposit interface" width="100%" /></a></td>
   </tr>
   <tr>
-    <td valign="top">Original posts, source links, categories, and community feedback.</td>
-    <td valign="top">Supported testnet interactions and activity context.</td>
+    <td valign="top">Browse original posts and see their sources and community feedback.</td>
+    <td valign="top">Try supported DeFi interactions on Base Sepolia.</td>
   </tr>
 </table>
 
-Screenshots from the public testnet, November 13, 2026. **[Open the full product tour](docs/product-overview.md)** for larger views and feature context.
+These screenshots were taken on November 13, 2026. The [product tour](docs/product-overview.md) includes larger images and explains each feature.
 
 ## Read the documentation
 
 | Start with | Read next |
 | --- | --- |
-| [Product overview](docs/product-overview.md) — users and use cases | [Reputation model](docs/reputation-model.md) — evidence and assessment |
-| [Architecture](docs/architecture.md) — system and work flows | [Integration direction](docs/integrations.md) — API, MCP, SDK, and ERCs |
-| [Roadmap](docs/roadmap.md) — delivery sequence | [Working with RocX](docs/collaboration.md) — partner collaboration |
+| [Product overview](docs/product-overview.md)<br>Who RocX serves and how it works | [Reputation model](docs/reputation-model.md)<br>How evidence informs an assessment |
+| [Architecture](docs/architecture.md)<br>How the system fits together | [Integrations](docs/integrations.md)<br>Plans for the API, MCP, SDK and ERCs |
+| [Roadmap](docs/roadmap.md)<br>What we plan to build next | [Working with RocX](docs/collaboration.md)<br>How to discuss a collaboration |
 
 ## Current status
 
-**Testnet foundation**  
-PoA contributions, community feedback, linked accounts, supported DeFi activity, and Explore missions.
+The testnet currently includes PoA contributions, community feedback, linked accounts, supported DeFi activity and Explore missions.
 
-**In development / planned**  
-Context-specific reputation, KOL and agent matching, evaluated work and escrow, reputation API, read-only MCP, and SDK distribution.
-
-This is a public product and architecture overview. Integration endpoints, packages, and contract deployments will be linked with their releases.
+Reputation profiles, KOL and agent matching, and jobs with evaluation and escrow are in development or planned. The roadmap also includes a reputation API, MCP tools for reading evidence and an SDK. We will add endpoints, packages and contract addresses as these components are released.
 
 ## Build with us
 
-Describe the decision or workflow RocX could support in your product. For technical and partner discussions, contact **[dev@rocx.io](mailto:dev@rocx.io)**.
+If you see a place for RocX in your product, we would like to hear about it. Tell us what your users need to decide and what evidence would help them. You can reach the team at [dev@rocx.io](mailto:dev@rocx.io).
 
 [Contributing](https://github.com/RocX-Network/.github/blob/main/CONTRIBUTING.md) · [Private security reporting](https://github.com/RocX-Network/.github/blob/main/SECURITY.md) · [X](https://x.com/RocX_official) · [Telegram](https://t.me/rocx_official)

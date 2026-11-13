@@ -2,7 +2,7 @@
 
 ## Product screenshots
 
-These images were captured from the public, signed-out RocX testnet on November 13, 2026.
+These screenshots were taken from the public RocX testnet on November 13, 2026, without signing in.
 
 | File | Public source |
 | --- | --- |
@@ -10,8 +10,8 @@ These images were captured from the public, signed-out RocX testnet on November 
 | `rocx-testnet-poa.jpg` | https://rocx-testnet.com/app/poa/feed |
 | `rocx-testnet-defi.jpg` | https://rocx-testnet.com/app/defi/deposit |
 
-Screenshots illustrate the existing interface. They do not establish that planned reputation, matching, API, MCP, SDK, or escrow components are released. Market figures shown in a testnet screenshot are not a claim of investment performance.
+The images show the interface available at that time. Reputation, matching and partner integrations are described separately in the roadmap. Any market figures visible in these images come from the testnet.
 
 ## Architecture diagrams
 
-The SVG files provide portable previews. The adjacent `.mmd` files retain the editable Mermaid sources. These diagrams describe planned architecture.
+The SVG files display the diagrams directly on GitHub. The matching `.mmd` files contain the Mermaid source for anyone editing them. Both diagrams describe the architecture we plan to build.
