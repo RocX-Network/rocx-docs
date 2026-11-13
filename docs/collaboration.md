@@ -1,3 +1,5 @@
+[Documentation home](../README.md) / Collaboration
+
 # Working with RocX
 
 ## For projects and foundations
@@ -21,3 +23,7 @@ Documentation improvements and specific integration proposals are welcome. Use t
 Technical and partner inquiries: **[dev@rocx.io](mailto:dev@rocx.io)**.
 
 Useful information to include: a public project URL if available, the intended users, the current workflow, the expected integration scope, and a redacted example. Do not send keys, passwords, access tokens, or unnecessary personal information.
+
+---
+
+[Product overview](product-overview.md) · [Integration direction](integrations.md)

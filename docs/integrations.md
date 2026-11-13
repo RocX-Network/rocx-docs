@@ -1,32 +1,56 @@
+[Documentation home](../README.md) / Integrations
+
 # Integration direction
 
-**Planning document.** No public RocX reputation endpoint, MCP server, SDK package, or ERC deployment is released by this repository. Concrete URLs, schemas, authentication requirements, network addresses, and package versions will be documented with each release.
+> Planning document. Reputation endpoints, MCP tools, SDK packages, and ERC contract addresses will be documented with their releases.
 
-## Interfaces
+The planned interfaces expose the same evidence and assessment policies through different developer workflows.
 
-| Interface | Intended role | Initial boundary |
-| --- | --- | --- |
-| REST API | Let external products query scoped reputation assessments and supporting evidence | Versioned read access with declared source coverage and permissions |
-| MCP | Let agents inspect evidence, fit, and eligibility through tools | Read-only; no implied authority to select providers, fund jobs, or release payments |
-| SDK | Make the released API and workflow integrations easier to adopt | Distributed after interfaces stabilize and partner demand is validated |
+## Partner interfaces
 
-The API and MCP interfaces should use the same assessment policies and access scopes. MCP is a delivery interface, not a separate source of reputation. Billable usage definitions and pricing will be published separately when available.
+### REST API
+
+External products query a scoped reputation assessment and its supporting evidence. The release should define source coverage, permissions, policy version, and error behavior.
+
+### Read-only MCP
+
+Agents inspect evidence, fit, and eligibility through tools. Read access does not authorize provider selection, escrow funding, or payment approval.
+
+MCP is an interface to the reputation layer, rather than a separate reputation source.
+
+### SDK
+
+Integration helpers make released interfaces easier to adopt. Distribution follows interface stability and demonstrated partner demand. Package names and versions will be linked when available.
 
 ## Standards alignment
 
-| Reference | Standard's role | RocX's planned use |
-| --- | --- | --- |
-| [ERC-8004: Trustless Agents](https://eips.ethereum.org/EIPS/eip-8004) | Agent identity, feedback, and validation registries | Associate an agent record with relevant feedback and task evidence; provide contextual assessment and explanation |
-| [ERC-8183: Agentic Commerce](https://eips.ethereum.org/EIPS/eip-8183) | Evaluator-based job escrow and settlement | Connect reviewed job results to RocX work history and reputation |
+### ERC-8004 — agent identity and feedback
 
-Both EIP pages were marked **Draft** when reviewed on November 13, 2026. Interfaces may change. These references do not establish that RocX has deployed compatible contracts, completed an audit, or partnered with the standards' authors.
+[ERC-8004: Trustless Agents](https://eips.ethereum.org/EIPS/eip-8004) defines identity, reputation, and validation registries for agents.
 
-ERC-8004 already includes a reputation registry. RocX's intended role is the evidence, context, aggregation policy, and application experience around trust decisions. It is not a claim that agent reputation is absent from the standard.
+RocX's intended role is the evidence, context, aggregation policy, and explanation around a trust decision. Agent reputation already exists in the standard; RocX adds the application-specific assessment layer.
+
+### ERC-8183 — evaluated work and escrow
+
+[ERC-8183: Agentic Commerce](https://eips.ethereum.org/EIPS/eip-8183) describes evaluator-based job escrow and settlement.
+
+RocX plans to connect reviewed job results to work history and future reputation assessments. A reputation score alone does not authorize settlement.
+
+Both EIP pages were marked **Draft** when reviewed on November 13, 2026. Referencing them does not establish a RocX deployment, completed audit, or partnership with their authors.
 
 ## RocX matching and ACP
 
-“RocX ACP” refers here to the planned RocX matching and paid-work workflow. RocX does not claim ownership of external Agent Commerce Protocol infrastructure. Any implementation against ERC-8183 or another ACP deployment must identify that integration explicitly.
+“RocX ACP” refers here to the planned matching and paid-work workflow. Any integration with ERC-8183 or an external Agent Commerce Protocol deployment must identify its specific scope.
 
-## Before a production integration
+## Release requirements
 
-A release should specify its supported scope, authentication and authorization model, data provenance, rate limits, error behavior, change policy, and security status. Contract integrations also require published network addresses, job rules, evaluator assumptions, and an explicit review of the implementation.
+A usable integration release should document:
+
+- Supported scope and interface version.
+- Authentication, authorization, and data provenance.
+- Rate limits, errors, usage definitions, and change policy.
+- Contract addresses, job rules, evaluator assumptions, and security status where applicable.
+
+---
+
+[Roadmap](roadmap.md) · [Working with RocX](collaboration.md)

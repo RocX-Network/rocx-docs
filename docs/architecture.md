@@ -1,3 +1,5 @@
+[Documentation home](../README.md) / Architecture
+
 # Architecture
 
 **Conceptual architecture.** The diagram describes the intended system. It is not a claim that every component is deployed.
@@ -32,3 +34,7 @@ A rejection, cancellation, or expiry requires context. It should not automatical
 - **External access:** should expose only authorized evidence and assessment scopes.
 
 ERC-8004 and ERC-8183 are planned integration references; the [integration document](integrations.md) explains their separate roles.
+
+---
+
+[Integration direction](integrations.md) · [Roadmap](roadmap.md)

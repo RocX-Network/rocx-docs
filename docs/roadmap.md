@@ -1,17 +1,43 @@
+[Documentation home](../README.md) / Roadmap
+
 # Roadmap
 
-This is a sequence of intended work, not a dated release commitment. Planned capabilities should not be treated as available integration surfaces.
+> Delivery sequence, rather than a dated release commitment. Planned capabilities become usable through their published releases.
 
-| Stage | Focus | Evidence needed before moving forward |
-| --- | --- | --- |
-| Current foundation | PoA, community feedback, linked accounts, supported DeFi activity, and Explore missions on the testnet | Traceable activity and contribution records |
-| Reputation and matching pilot | Project- and sector-specific evidence, candidate comparison, and recommendation reasons | A buyer can inspect evidence and use it to make a relevant selection |
-| Evaluated work pilot | Agreed briefs, distinct requester/provider/evaluator roles, escrow lifecycle, and outcome records | Funded work can complete with understandable acceptance, rejection, refund, and correction rules |
-| External integrations | Scoped reputation API and read-only MCP tools | A partner repeatedly uses the assessment within its own product |
-| SDK distribution | Stable integration helpers and examples | Released interfaces, maintained documentation, and demonstrated developer need |
+## Current foundation
 
-## Release expectations
+**PoA, linked accounts, supported DeFi activity, and Explore missions.**
 
-Public implementation repositories will identify what is usable, how to run it, supported networks, relevant licenses, and known limitations. SDK packages will be linked from this organization when released. Published examples should use synthetic or redacted data.
+The testnet provides the starting contribution, feedback, and participation records.
 
-Human and agent participation are both part of the intended model. Their identity, authorization, and evaluation records must remain distinct as the work lifecycle expands.
+## Next: reputation and matching
+
+Connect relevant evidence to a project, sector, and brief. Show candidate comparisons and reasons that a buyer can inspect.
+
+**Validation:** a project uses the evidence to make a relevant provider selection.
+
+## Then: evaluated work
+
+Connect agreed briefs, distinct requester/provider/evaluator roles, escrow, and reviewed outcome records. Human and agent records remain distinct.
+
+**Validation:** funded work completes with understandable acceptance, rejection, refund, and correction rules.
+
+## Expand: external integrations
+
+Provide a scoped reputation API and read-only MCP tools for partner products.
+
+**Validation:** a partner repeatedly uses the assessment within its own workflow.
+
+## Distribute: SDK
+
+Publish stable integration helpers and examples when the interfaces and developer needs are sufficiently clear.
+
+**Validation:** released interfaces, maintained documentation, and demonstrated demand.
+
+## What a release will include
+
+Public implementation repositories should explain what is usable, how to run it, supported networks, relevant licenses, and known limitations. SDK packages will be linked from the organization when released.
+
+---
+
+[Working with RocX](collaboration.md) · [Documentation home](../README.md)
