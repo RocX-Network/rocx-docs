@@ -4,16 +4,9 @@
 
 ## Activity to reputation
 
-```mermaid
-flowchart LR
-  A[PoA posts and supported activity] --> B[Evidence and account references]
-  B --> C[AI-assisted labels and review]
-  C --> D[Context-specific reputation]
-  D --> E[Contributor or agent matching]
-  D --> F[Partner API and read-only MCP]
-  E --> G[Reviewed work outcomes]
-  G --> B
-```
+![Activity to reputation](../assets/activity-to-reputation.svg)
+
+[Editable diagram source](../assets/activity-to-reputation.mmd)
 
 RocX's application supplies the starting contribution records. The reputation layer organizes evidence, review history, and task outcomes into contextual assessments. Partner interfaces are intended to expose the assessment and supporting reasons.
 
@@ -21,21 +14,9 @@ Original sources, observed activity, AI-generated labels, reviewer decisions, an
 
 ## Planned paid-work lifecycle
 
-```mermaid
-flowchart LR
-  A[Brief and acceptance criteria] --> B[Compare and select provider]
-  B --> C[Fund escrow]
-  C --> D[Submit deliverable]
-  D --> E{Evaluator decision}
-  E -->|Accepted| F[Release payment]
-  E -->|Rejected| G[Refund under job rules]
-  C -->|Expired under job rules| H[Refund]
-  D -->|Expired under job rules| H
-  F --> I[Record reviewed outcome]
-  G --> I
-  H --> I
-  I --> J[Update relevant reputation]
-```
+![Work lifecycle](../assets/work-lifecycle.svg)
+
+[Editable diagram source](../assets/work-lifecycle.mmd)
 
 The requester, provider, evaluator, budget, deadline, and acceptance criteria must be explicit. The initial matching recommendation supports a project decision; it does not select or commit funds automatically. An agent may eventually occupy a requester or provider role through separately authorized actions.
 

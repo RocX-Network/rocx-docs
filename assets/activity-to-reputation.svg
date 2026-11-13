@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" role="img" aria-label="Activity, evidence, reputation, matching, and reviewed outcomes">
+<title>Activity, evidence, reputation, matching, and reviewed outcomes</title>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#6b52e8"/></marker></defs>
+<rect width="1280" height="520" rx="20" fill="#ffffff"/>
+<text x="40" y="48" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="600" fill="#1d192b">Activity to reputation</text>
+<text x="40" y="79" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" fill="#726b85">Conceptual flow · planned reputation and partner components</text>
+<rect x="40" y="140" width="200" height="96" rx="12" fill="#f4f2fc" stroke="#ded9f4"/>
+<text x="140.0" y="183.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">PoA posts and</text>
+<text x="140.0" y="208.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">supported activity</text>
+<path d="M240 188 H274" fill="none" stroke="#6b52e8" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="280" y="140" width="200" height="96" rx="12" fill="#f4f2fc" stroke="#ded9f4"/>
+<text x="380.0" y="183.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">Evidence and</text>
+<text x="380.0" y="208.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">account references</text>
+<path d="M480 188 H514" fill="none" stroke="#6b52e8" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="520" y="140" width="200" height="96" rx="12" fill="#f4f2fc" stroke="#ded9f4"/>
+<text x="620.0" y="183.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">AI-assisted labels</text>
+<text x="620.0" y="208.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">and review</text>
+<path d="M720 188 H754" fill="none" stroke="#6b52e8" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="760" y="140" width="200" height="96" rx="12" fill="#5b3df0" stroke="#5b3df0"/>
+<text x="860.0" y="183.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#ffffff">Context-specific</text>
+<text x="860.0" y="208.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#ffffff">reputation</text>
+<path d="M960 188 H994" fill="none" stroke="#6b52e8" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="1000" y="140" width="200" height="96" rx="12" fill="#f4f2fc" stroke="#ded9f4"/>
+<text x="1100.0" y="183.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">Contributor or</text>
+<text x="1100.0" y="208.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">agent matching</text>
+<rect x="760" y="320" width="200" height="96" rx="12" fill="#f4f2fc" stroke="#ded9f4"/>
+<text x="860.0" y="363.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">Partner API and</text>
+<text x="860.0" y="388.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">read-only MCP</text>
+<rect x="1000" y="320" width="200" height="96" rx="12" fill="#f4f2fc" stroke="#ded9f4"/>
+<text x="1100.0" y="363.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">Reviewed work</text>
+<text x="1100.0" y="388.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">outcomes</text>
+<path d="M860 236 V313" fill="none" stroke="#6b52e8" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M1100 236 V313" fill="none" stroke="#6b52e8" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M1100 416 V453 H380 V244" fill="none" stroke="#6b52e8" stroke-width="2.2" marker-end="url(#arrow)"/>
+<text x="702" y="487" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" fill="#6b52e8">Reviewed outcomes inform future assessments</text>
+</svg>

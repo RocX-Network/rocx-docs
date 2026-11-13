@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="600" viewBox="0 0 1280 600" role="img" aria-label="Planned job lifecycle and settlement outcomes">
+<title>Planned job lifecycle and settlement outcomes</title>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#6b52e8"/></marker></defs>
+<rect width="1280" height="600" rx="20" fill="#ffffff"/>
+<text x="40" y="48" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="600" fill="#1d192b">Evaluated work and settlement</text>
+<text x="40" y="79" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" fill="#726b85">Conceptual flow · requester, provider, and evaluator remain explicit</text>
+<rect x="40" y="130" width="200" height="96" rx="12" fill="#f4f2fc" stroke="#ded9f4"/>
+<text x="140.0" y="173.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">Brief and</text>
+<text x="140.0" y="198.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">acceptance criteria</text>
+<path d="M240 178 H274" fill="none" stroke="#6b52e8" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="280" y="130" width="200" height="96" rx="12" fill="#f4f2fc" stroke="#ded9f4"/>
+<text x="380.0" y="173.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">Compare and</text>
+<text x="380.0" y="198.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">select provider</text>
+<path d="M480 178 H514" fill="none" stroke="#6b52e8" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="520" y="130" width="200" height="96" rx="12" fill="#f4f2fc" stroke="#ded9f4"/>
+<text x="620.0" y="173.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">Fund</text>
+<text x="620.0" y="198.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">escrow</text>
+<path d="M720 178 H754" fill="none" stroke="#6b52e8" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="760" y="130" width="200" height="96" rx="12" fill="#f4f2fc" stroke="#ded9f4"/>
+<text x="860.0" y="173.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">Submit</text>
+<text x="860.0" y="198.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">deliverable</text>
+<path d="M960 178 H994" fill="none" stroke="#6b52e8" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="1000" y="130" width="200" height="96" rx="12" fill="#5b3df0" stroke="#5b3df0"/>
+<text x="1100.0" y="173.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#ffffff">Evaluator</text>
+<text x="1100.0" y="198.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#ffffff">review</text>
+<text x="40" y="280" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="600" fill="#252231">Settlement follows the job state and agreed rules</text>
+<rect x="140" y="311" width="280" height="88" rx="12" fill="#f4f2fc" stroke="#ded9f4"/>
+<text x="280.0" y="350.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">Completed</text>
+<text x="280.0" y="380" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" fill="#726b85">Release payment</text>
+<rect x="500" y="311" width="280" height="88" rx="12" fill="#f4f2fc" stroke="#ded9f4"/>
+<text x="640.0" y="350.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">Rejected</text>
+<text x="640.0" y="380" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" fill="#726b85">Refund client</text>
+<rect x="860" y="311" width="280" height="88" rx="12" fill="#f4f2fc" stroke="#ded9f4"/>
+<text x="1000.0" y="350.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">Expired</text>
+<text x="1000.0" y="380" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" fill="#726b85">Refund client</text>
+<text x="640" y="434" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" fill="#726b85">Expiry can occur while a job is funded or submitted, before completion.</text>
+<path d="M280 399 V459 H640 V482" fill="none" stroke="#6b52e8" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M640 399 V459 H640 V482" fill="none" stroke="#6b52e8" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M1000 399 V459 H640 V482" fill="none" stroke="#6b52e8" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="340" y="490" width="600" height="70" rx="12" fill="#5b3df0" stroke="#5b3df0"/>
+<text x="640.0" y="532.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#ffffff">Record the outcome and update relevant reputation</text>
+</svg>

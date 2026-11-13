@@ -1,0 +1,13 @@
+flowchart LR
+  A[Brief and acceptance criteria] --> B[Compare and select provider]
+  B --> C[Fund escrow]
+  C --> D[Submit deliverable]
+  D --> E{Evaluator decision}
+  E -->|Accepted| F[Release payment]
+  E -->|Rejected| G[Refund under job rules]
+  C -->|Expired under job rules| H[Refund]
+  D -->|Expired under job rules| H
+  F --> I[Record reviewed outcome]
+  G --> I
+  H --> I
+  I --> J[Update relevant reputation]
