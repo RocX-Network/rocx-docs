@@ -33,7 +33,7 @@
 <rect x="860" y="311" width="280" height="88" rx="12" fill="#f4f2fc" stroke="#ded9f4"/>
 <text x="1000.0" y="350.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="600" fill="#252231">Expired</text>
 <text x="1000.0" y="380" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" fill="#726b85">Refund client</text>
-<text x="640" y="434" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" fill="#726b85">Expiry can occur while a job is funded or submitted, before completion.</text>
+<text x="640" y="584" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" fill="#726b85">Expiry can occur while a job is funded or submitted, before completion.</text>
 <path d="M280 399 V459 H640 V482" fill="none" stroke="#6b52e8" stroke-width="2.2" marker-end="url(#arrow)"/>
 <path d="M640 399 V459 H640 V482" fill="none" stroke="#6b52e8" stroke-width="2.2" marker-end="url(#arrow)"/>
 <path d="M1000 399 V459 H640 V482" fill="none" stroke="#6b52e8" stroke-width="2.2" marker-end="url(#arrow)"/>
